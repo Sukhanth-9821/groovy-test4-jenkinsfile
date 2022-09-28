@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools { 
-        Maven 'M2_HOME' 
+        Maven 'MAVEN_HOME' 
         java-17 'JAVA_HOME' 
     }
 
