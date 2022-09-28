@@ -1,7 +1,8 @@
 pipeline {
     agent any
+
     tools { 
-        Maven-3.8 'MAVEN_HOME' 
+        Maven-3.8 "MAVEN_HOME" 
         java-17 'JAVA_HOME' 
     }
 
