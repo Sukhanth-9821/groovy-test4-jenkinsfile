@@ -15,7 +15,7 @@ pipeline {
                 ''' 
             }
         }
-        stage('Code from SCM & Build') {
+        stage('Building in Maven') {
             steps {
                 // Get some code from a GitHub repository
                 
@@ -36,5 +36,6 @@ pipeline {
                 }
             }
         }
+        // stage ("Push to Nexus")
     }
 }
